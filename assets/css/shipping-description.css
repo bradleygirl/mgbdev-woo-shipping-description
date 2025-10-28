@@ -1,0 +1,53 @@
+/**
+ * WooCommerce Shipping Description Styles
+ * Styling for shipping method descriptions displayed on cart and checkout pages
+ */
+
+/* Classic and Block Cart/Checkout */
+.shipping-method-description {
+	font-size: 0.875em;
+	color: #666;
+	margin-top: 0.25em;
+	margin-bottom: 0;
+	line-height: 1.4;
+	font-style: italic;
+}
+
+/* Block-specific adjustments */
+.wc-block-components-radio-control .shipping-method-description {
+	display: block;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.wc-block-components-shipping-rates-control .shipping-method-description {
+	margin-left: 1.5em;
+}
+
+/* Classic-specific adjustments */
+#shipping_method .shipping-method-description,
+.shipping .shipping-method-description {
+	display: block;
+	margin-left: 0;
+}
+
+/* Ensure proper spacing in checkout block */
+.wc-block-checkout__shipping-methods .shipping-method-description {
+	display: block;
+	margin-top: 0.5em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+	.shipping-method-description {
+		font-size: 0.8125em;
+	}
+}
+
+/* Dark mode support (for themes that support it) */
+@media (prefers-color-scheme: dark) {
+	.shipping-method-description {
+		color: #999;
+	}
+}
+
