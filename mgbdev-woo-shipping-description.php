@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: MGBDev WooCommerce Shipping Description
+ * Plugin Name: MGBDev Shipping Description for woocommerce
  * Plugin URI: https://github.com/mgbdev/woo-shipping-description
  * Description: Add custom descriptions to shipping methods displayed on cart and checkout pages (classic and block themes).
  * Version: 1.0.0
